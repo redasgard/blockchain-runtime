@@ -1,0 +1,38 @@
+[package]
+name = "blockchain-runtime"
+version = "0.1.0"
+edition = "2021"
+authors = ["Red Asgard <hello@redasgard.com>"]
+license = "MIT"
+description = "Blockchain-agnostic runtime abstraction for dynamic analysis, testing, and simulation"
+repository = "https://github.com/redasgard/blockchain-runtime"
+keywords = ["blockchain", "runtime", "simulation", "testing", "ethereum"]
+categories = ["development-tools", "simulation"]
+readme = "README.md"
+
+[dependencies]
+# Async support
+tokio = { version = "1.0", features = ["full"] }
+async-trait = "0.1"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Error handling
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Optional tracing
+tracing = { version = "0.1", optional = true }
+
+[dev-dependencies]
+
+[features]
+default = []
+tracing = ["dep:tracing"]
+
+[lib]
+name = "blockchain_runtime"
+path = "src/lib.rs"
+
