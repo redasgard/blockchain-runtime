@@ -19,6 +19,7 @@ Thumbs.db
 !CHANGELOG.md
 !LICENSE*.md
 !CONTRIBUTING.md
+!docs/
 
 # Test artifacts
 *.profraw
