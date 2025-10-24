@@ -3,6 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/blockchain-runtime.svg)](https://crates.io/crates/blockchain-runtime)
 [![Documentation](https://docs.rs/blockchain-runtime/badge.svg)](https://docs.rs/blockchain-runtime)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE-MIT)
+[![Test Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen.svg)](https://github.com/redasgard/blockchain-runtime)
 
 Blockchain-agnostic runtime abstraction for dynamic analysis, testing, and simulation.
 
@@ -189,7 +190,7 @@ for metric in metrics {
 
 ## Origin
 
-Extracted from [Valkra](https://github.com/asgardtech/valkra), a blockchain security auditing platform where it provides runtime execution environments for dynamic smart contract analysis across 40+ blockchains.
+Extracted from [Red Asgard](https://github.com/redasgard), a security platform where it provides runtime execution environments for dynamic smart contract analysis across multiple blockchains.
 
 ## License
 

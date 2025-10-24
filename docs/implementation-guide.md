@@ -52,7 +52,7 @@ fn blockchain_id(&self) -> &str {
 **Requirements:**
 - Lowercase
 - Unique across all blockchains
-- Consistent with Valkra blockchain enum
+- Consistent with Red Asgard blockchain enum
 
 **Examples:**
 - `"ethereum"`, `"solana"`, `"near"`, `"polygon"`, `"avalanche"`
